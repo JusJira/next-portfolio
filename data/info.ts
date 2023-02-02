@@ -2,13 +2,13 @@ export const info = {
     baseUrl: "https://imjustin.dev",
     name: "Justin Jiraratsakul",
     jobDescription: "Web Developer",
-    about: `I am a student majoring in  Engineering at Chulalongkorn University, Thailand.
-     I enjoy creating things for the internet, whether that be websites, applications, or anything in between.
-     I also enjoy configuring servers such as the server that is hosting this site!.
-     I have experience working in frontend with React, Next and Tailwind CSS.
-     And in backend development with Express, Flask and SocketIO.
-     I also do other programming other than web development such as Python.
-    `,
+    about: 
+    `I am a student majoring in  Engineering at Chulalongkorn University, Thailand.
+    I enjoy creating things for the internet, whether that be websites, applications, or anything in between.
+    I also enjoy configuring servers such as the server that is hosting this site!.
+    I have experience working in frontend with React, Next and Tailwind CSS.
+    And in backend development with Express, Flask and SocketIO.
+    I also do other programming other than web development such as Python.`,
   
     experience: [
       {
