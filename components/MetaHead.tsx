@@ -8,29 +8,29 @@ import { useRouter } from 'next/router';
 function MetaHead(props: { title: any; description: any; ogImageUrl: any; }) {
     const { title, description, ogImageUrl } = props;
     const router = useRouter()
-//     const { systemTheme, theme } = useTheme();
-//     const [mounted, setMounted] = useState(false);
-//   useEffect(() =>{
-//     setMounted(true);
-//   },[])
+    const { systemTheme, theme } = useTheme();
+    const [mounted, setMounted] = useState(false);
+  useEffect(() =>{
+    setMounted(true);
+  },[])
 
-//   const renderThemeColor = () => {
-//     if(!mounted) return null;
+  const renderThemeColor = () => {
+    if(!mounted) return null;
     
-//     const currentTheme = theme === "system" ? systemTheme : theme;
+    const currentTheme = theme === "system" ? systemTheme : theme;
 
-//     if (currentTheme === "dark") {
-//       return (
-//         <meta name="theme-color" content="#1e293b" />
-//       )
-//     }
+    if (currentTheme === "dark") {
+      return (
+        <meta name="theme-color" content="#1e293b" />
+      )
+    }
 
-//     else {
-//       return (
-//         <meta name="theme-color" content="#ffffff" />
-//       )
-//     }
-//   };
+    else {
+      return (
+        <meta name="theme-color" content="#ffffff" />
+      )
+    }
+  };
 
     return (
         <Head>
@@ -44,7 +44,7 @@ function MetaHead(props: { title: any; description: any; ogImageUrl: any; }) {
             <link rel="manifest" href="/site.webmanifest" />
             <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
             <meta name="msapplication-TileColor" content="#da532c" />
-            {/* {renderThemeColor()} */}
+            {renderThemeColor()}
 
             {
                 title && (
