@@ -62,9 +62,9 @@ function Navbar() {
             </Link>
             
           </li>
-          <li>
+          {/* <li>
           {renderThemeChanger()}
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
