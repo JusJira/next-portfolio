@@ -1,13 +1,13 @@
 import '../styles/globals.css'
 import '../styles/font.css'
 import type { AppProps } from 'next/app'
-import React from 'react'
+import { ThemeProvider } from 'next-themes'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <React.StrictMode>
+      <ThemeProvider enableSystem={true} attribute="class">
         <Component {...pageProps} />
-    </React.StrictMode>)
+      </ThemeProvider>)
 }
 
 export default MyApp
