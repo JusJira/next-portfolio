@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { info } from "data/info";
 import { createLogo } from "utils/index";
 import Link from 'next/link'
-import ThemeSwitch from '@/utils/ThemeSwitch';
 import { useTheme } from "next-themes";
 
 
