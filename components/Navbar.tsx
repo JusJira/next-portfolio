@@ -15,6 +15,7 @@ function Navbar() {
 
   const renderThemeChanger = () => {
     if(!mounted) return null;
+    
     const currentTheme = theme === "system" ? systemTheme : theme;
 
     if (currentTheme === "dark") {
