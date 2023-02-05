@@ -1,7 +1,16 @@
 import Image from 'next/image'
+import { useState } from 'react';
+
+
+function cn(...classes: string[]) {
+  return classes.filter(Boolean).join(' ');
+}
 
 function ProjectBox(props: any) {
   const { title, thumbnail, liveUrl, githubUrl } = props.projectDetail;
+  const [isLoading, setLoading] = useState(true);
+
+
   return (
     <article className="w-full max-h-[25rem] overflow-hidden relative group">
       <div className="flex items-center absolute right-4 top-4 z-10"
@@ -63,10 +72,18 @@ function ProjectBox(props: any) {
       </div>
       <Image
         src={thumbnail}
-        className="object-cover w-full h-auto aspect-video scale-100 hover:scale-110 transition duration-[1.5s]"
+        className={cn("object-cover w-full h-auto aspect-video scale-100 hover:scale-110 transition duration-[1.5s]",
+        isLoading
+        ? 'grayscale blur-2xl scale-110'
+        : 'grayscale-0 blur-0 scale-100')}
         alt="featureImage"
         width={1000}
         height={1000}
+        priority
+        onLoadingComplete={() => setLoading(false)}
+        sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
       />
       <div
         className="absolute w-full bottom-0 left-0 backdrop-blur-md dark:text-white text-white bg-black/50 p-4 translate-y-[100%] group-hover:translate-y-0 transition duration-700"
