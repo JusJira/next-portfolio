@@ -65,6 +65,18 @@ export const info = {
         thumbnail: "/assets/images/covid.png",
         liveUrl: "https://covid.jjus.dev"
       },
+      {
+        title: "Old Portfolio",
+        isFeatured: false,
+        thumbnail: "/assets/images/old-portfolio.png",
+        githubUrl: "https://github.com/JusJira/my-portfolio"
+      },
+      {
+        title: "Project 10 Days",
+        isFeatured: false,
+        thumbnail: "https://raw.githubusercontent.com/HEKYPTO/Project10Days/temp/demo/src/assets/Logo.png",
+        githubUrl: "https://github.com/HEKYPTO/Project10Days/"
+      },
     ],
 
     certificates: [
