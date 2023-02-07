@@ -20,6 +20,7 @@ function Navbar() {
     if (currentTheme === "dark") {
       return (
         <button
+          aria-label="Theme Change"
           className='p-3 border border-light rounded-md'
           onClick={() => setTheme('light')}>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-sun text-yellow-500"
@@ -41,6 +42,7 @@ function Navbar() {
     else {
       return (
         <button
+          aria-label="Theme Change"
           className='p-3 border border-dark rounded-md'
           onClick={() => setTheme('dark')}
         >
