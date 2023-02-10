@@ -63,7 +63,7 @@ export const info = {
         title: "COVID-19 Tracking",
         isFeatured: false,
         thumbnail: "/assets/images/covid.png",
-        liveUrl: "https://covid.jjus.dev"
+        liveUrl: "https://covid.imjustin.dev"
       },
       {
         title: "Old Portfolio",
