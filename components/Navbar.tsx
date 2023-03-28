@@ -70,6 +70,9 @@ function Navbar() {
             <Link className="p-4 dark:text-light block text-lg no-underline" href="/projects"
             >Projects
             </Link>
+            <Link className="p-4 dark:text-light block text-lg no-underline" href="https://shopee.co.th/justinjiraratsakul"
+            >Shop
+            </Link>
 
           </li>
           <li>
