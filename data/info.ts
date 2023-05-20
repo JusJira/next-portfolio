@@ -81,10 +81,16 @@ export const info = {
 
     certificates: [
       {
-        name: 'Google',
+        name: 'Google Technical Support',
         source:'Google',
         date:'2023',
         thumbnail: '/assets/cert/Coursera-IT.png'
+      },
+      {
+        name: 'Google Data Analysis',
+        source:'Google',
+        date:'2023',
+        thumbnail: '/assets/cert/Coursera-Data.png'
       }
     ],
   };
