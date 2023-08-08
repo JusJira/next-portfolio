@@ -60,6 +60,12 @@ export const info = {
         liveUrl: "https://qr.imjustin.dev"
       },
       {
+        title: "Budget App",
+        isFeatured: true,
+        thumbnail: "/assets/images/budgetapp.png",
+        liveUrl: "https://budget.jjus.dev"
+      },
+      {
         title: "COVID-19 Tracking",
         isFeatured: false,
         thumbnail: "/assets/images/covid.png",
