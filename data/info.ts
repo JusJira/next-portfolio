@@ -54,16 +54,16 @@ export const info = {
         githubUrl: "https://github.com/thinc-org/hacktoschool-yilongma",
       },
       {
-        title: "QR Code Generator",
-        isFeatured: true,
-        thumbnail: "/assets/images/qrcode.jpeg",
-        liveUrl: "https://qr.imjustin.dev"
-      },
-      {
         title: "Budget App",
         isFeatured: true,
         thumbnail: "/assets/images/budgetapp.png",
         liveUrl: "https://budget.jjus.dev"
+      },
+      {
+        title: "QR Code Generator",
+        isFeatured: true,
+        thumbnail: "/assets/images/qrcode.jpeg",
+        liveUrl: "https://qr.imjustin.dev"
       },
       {
         title: "COVID-19 Tracking",
