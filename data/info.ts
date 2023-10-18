@@ -12,11 +12,11 @@ export const info = {
   
     experience: [
       {
-        name: "Thinc's 10 Days Project",
+        name: "Thinc's Hack to School",
         location: "Cleverse, Thailand",
         date: "Jan 2023",
         description: [
-          "- Hackathon challenge to develop a web application in 10 days",
+          "- Hackathon challenge to develop a web application in 7 days",
           "- Earned prize money for getting 2nd place.",
         ],
       },
